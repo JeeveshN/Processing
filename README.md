@@ -6,6 +6,7 @@ Attempt to code all the coding challenges in python attempted by [Daniel Shiffma
 Coding Challenge | Output | Code | Author
 -----------------|--------|------ | ------
 [#1 StarField](https://youtu.be/17WoOqgXsRM) | <img src="/extras/StarField.gif" width="200"> | [Source Code](./StarField.pyde) | [JeeveshN](https://github.com/JeeveshN)
-[#85 Game Of Life](https://youtu.be/FWSR_7kZuYg) | <img src="/extras/GameOfLife.gif" width="200"> | [Source Code](./StarField.pyde) | [JeeveshN](https://github.com/JeeveshN)
+[#85 Game Of Life](https://youtu.be/FWSR_7kZuYg) | <img src="/extras/GameOfLife.gif" width="200"> | [Source Code](./GameOfLife.pyde) | [JeeveshN](https://github.com/JeeveshN)
+[#14 Fractal Trees](https://youtu.be/0jjeOYMjmDU) | <img src="/extras/FractalTrees1.gif" width="200"> | [Source Code](./FractalTrees.pyde) | [JeeveshN](https://github.com/JeeveshN)
 
 The orignal code can be accesed [here](https://github.com/CodingTrain/website/tree/master/CodingChallenges)
