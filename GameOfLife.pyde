@@ -1,6 +1,6 @@
 from random import randint
 from itertools import combinations
-size_g=60
+size_g=50
 nu =0
 def array(col,row):
     return [[randint(0,1) for i in range(col)] for j in range(row)]
@@ -16,9 +16,9 @@ def compute_next_gen():
         for j in range(size_g):
             num=0
             for c in changes:
+                x = i+c[0]
+                y = j+c[1]
                 try:
-                    x = i+c[0]
-                    y = j+c[1]
                     if GRID[x][y]==1 and x>=0 and y>=0:
                         num+=1
                 except:
@@ -37,7 +37,7 @@ def mousePressed():
     GRID[int(mouseY/width_r)][int(mouseX/height_r)] = 1
         
 def setup():
-    size(480,480)
+    size(1000,1000)
     
 def draw():
     global nu
@@ -45,14 +45,13 @@ def draw():
     start_y=0
     width_r = width/size_g
     height_r = height/size_g
-    
+    stroke(0)
     for i in range(size_g):
         for j in range(size_g):
             if GRID[i][j] == 1:
-                num = 0
+                num=0
             else:
                 num=255
-            stroke(0)
             fill(num)
             rect(start_x,start_y,width_r,height_r)
             start_x+=width_r
